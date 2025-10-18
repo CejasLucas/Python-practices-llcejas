@@ -1,8 +1,11 @@
-from Practices.lists.exercise1 import run_exercise_1
+from src.main.Practices.lists.exercise1 import list_created
 
 def run_exercise_5():
-    first_word_list = run_exercise_1()
-    second_word_list = run_exercise_1()
+    print("\nCreate two lists of words, then remove from the")
+    print("first list any words that are also in the second.")
+
+    first_word_list = list_created()
+    second_word_list = list_created()
 
     for word in range(len(first_word_list) - 1, -1, -1):
         if first_word_list[word] in second_word_list:

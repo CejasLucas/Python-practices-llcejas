@@ -1,4 +1,7 @@
 def run_exercise_1():
+    print("\nCreate a program that receives two sets and")
+    print("returns the common elements between them, without repetition.")
+
     first_set = create_set("first")
     second_set = create_set("second")
     intersection_of_sets = first_set.intersection(second_set)

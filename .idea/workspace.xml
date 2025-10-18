@@ -6,28 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/conditionals/exercise6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_for/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_for/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_for/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_for/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_for/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_for/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_for/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_for/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise7.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/cycle_while/exercise8.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/dictionaries/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/dictionaries/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/dictionaries/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/dictionaries/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/dictionaries/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/dictionaries/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/WebApp/static/javascript/terminal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/WebApp/static/javascript/terminal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/lists/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/lists/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/lists/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/lists/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/lists/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/lists/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/lists/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/lists/exercise4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/lists/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/lists/exercise5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/lists/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/lists/exercise6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/sets/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/sets/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/tuples/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/tuples/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/tuples/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/tuples/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/tuples/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/tuples/exercise3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,6 +190,7 @@
       <workItem from="1760544268568" duration="3340000" />
       <workItem from="1760618235174" duration="4279000" />
       <workItem from="1760700775991" duration="7615000" />
+      <workItem from="1760826736923" duration="3243000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />

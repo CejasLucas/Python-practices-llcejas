@@ -1,10 +1,13 @@
-from Practices.sets.exercise1 import create_set
-from Practices.sets.exercise1 import create_list
-from Practices.sets.exercise1 import run_exercise_1
-from Practices.sets.exercise2 import run_exercise_2
-from Practices.sets.exercise3 import run_exercise_3
+from src.main.Practices.sets.exercise1 import create_set
+from src.main.Practices.sets.exercise1 import create_list
+from src.main.Practices.sets.exercise1 import run_exercise_1
+from src.main.Practices.sets.exercise2 import run_exercise_2
+from src.main.Practices.sets.exercise3 import run_exercise_3
 
 def run_exercise_4():
+    print("\nCreate a program that simplifies working with sets.")
+    print("Remember, a set is a collection with no repeated elements.")
+
     print("\nWrite the number corresponding: ")
     print("(1) Convert List to Set")
     print("(2) Union")

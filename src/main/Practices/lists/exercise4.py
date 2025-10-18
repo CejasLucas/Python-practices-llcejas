@@ -1,7 +1,9 @@
-from Practices.lists.exercise1 import run_exercise_1
+from src.main.Practices.lists.exercise1 import list_created
 
 def run_exercise_4():
-    word_list = run_exercise_1()
+    print("\nCreate a list of words, then ask for a word and remove it from the list.")
+
+    word_list = list_created()
     word_to_search = input("\nEnter a word to search for in the list and delete it: ")
 
     if word_to_search in word_list:

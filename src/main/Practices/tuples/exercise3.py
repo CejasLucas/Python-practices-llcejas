@@ -2,6 +2,12 @@ list_cities = []
 list_passengers = []
 
 def run_exercise_3():
+    print("\nWrite a program to process travel passenger data in a list ")
+    print("of tuples with the format: [('name', DNI, destination)]")
+
+    print("\nAlso, another list of tuples stores city names")
+    print("and the country they belong to. Example: [('Buenos Aires', 'Argentina'), ...]")
+
     while True:
         print("\nWrite the corresponding number for said operation: ")
         print("(1) Add cities to the city list.")

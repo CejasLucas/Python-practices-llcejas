@@ -1,10 +1,14 @@
-from Practices.lists.exercise1 import run_exercise_1
+from src.main.Practices.lists.exercise1 import list_created
 
 def run_exercise_3():
-    word_list = run_exercise_1()
+    print("\nCreate a list of words, then ask for two words and replace the first")
+    print("(if in the list) with the second. Display the updated list.")
+
+    word_list = list_created()
     first_word = input("\nEnter the word to replace: ")
+
     if first_word in word_list:
-        print(f"I\nnitial list: {word_list}")
+        print(f"\nInitial list: {word_list}")
         word_change(first_word, word_list)
         print(f"\nModified list: {word_list}")
     else:
