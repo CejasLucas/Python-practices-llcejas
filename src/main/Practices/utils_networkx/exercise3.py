@@ -35,7 +35,7 @@ def highlight_path_subgraph(graph: nx.Graph, path: list[str]) -> nx.Graph:
     return path_subgraph
 
 def run_exercise_3():
-    print("Given a weighted graph G = (V, A) with vertices A–H")
+    print("\nGiven a weighted graph G = (V, A) with vertices A–H")
     print("representing towns and edge weights as fuel usage,")
     print("determine the fuel needed for the shortest route from A to H.")
     graph = build_graph(get_graph_data())

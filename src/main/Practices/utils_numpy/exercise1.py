@@ -8,6 +8,12 @@ def data():
     ]
 
 def run_exercise_1():
+    print("\n⤵️  Perform the following operations:")
+    print("- Subtract 5 from the second row of the matrix.")
+    print("- Multiply the entire matrix by 2.")
+    print("- Divide the first two rows of the matrix by -5.")
+    print("- Print the last row of the matrix. \n")
+
     np.set_printoptions(precision=1, floatmode='fixed', suppress=False)
 
     matrix_original = np.array(data())

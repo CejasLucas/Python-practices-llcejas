@@ -38,7 +38,7 @@ def print_shortest_paths(graph: nx.Graph):
 
 
 def run_exercise_4():
-    print("For the weighted graph G where vertices")
+    print("\nFor the weighted graph G where vertices")
     print("are cities and weights are distances (km):")
     print(" a) Using the appropriate algorithm, find the")
     print(" shortest distances from A to all other cities.")

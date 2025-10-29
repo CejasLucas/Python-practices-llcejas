@@ -66,7 +66,7 @@ def display_graph_info(graph: nx.Graph):
 def run_exercise_6():
     network = ["Escobar–Fernandez", "Gonzalez–Herrera", "Alvarez–Benitez", "Cejas–Dominguez", "Ibarra–Juarez"]
 
-    print("The table below shows the cable lengths (in meters)")
+    print("\nThe table below shows the cable lengths (in meters)")
     print("connecting the computers of 12 office employees.")
 
     print("\na) The manager wants to assign pairs of ")

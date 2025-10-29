@@ -24,7 +24,16 @@ def average_of_the_first_two_rows(matrix):
     return amount / counter
 
 def run_exercise_2():
+    print("\n⤵️  Using NumPy:")
+    print("- Compute the sum of all elements of a from the ")
+    print("  previous exercise using two nested for loops")
+    print("- Compute the sum of all elements of a using np.sum")
+    print("- Compute the average of the elements in the ")
+    print("  first two rows of a using two nested for loops.")
+    print("- Compute the same average using slices (:) and np.mean \n")
+
     matrix = np.array(data())
+
     print(f"Original matrix:\n{matrix}\n")
 
     print(f"Add elements using nested loops: {add_elements(matrix)}\n")

@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/resources PDF/Practices/practice_numpy.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/exercise6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_networkx/style_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_networkx/style_graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_numpy/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_numpy/exercise1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_numpy/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_numpy/exercise2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_numpy/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_numpy/exercise3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Practices/utils_numpy/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Practices/utils_numpy/exercise4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +194,8 @@
       <workItem from="1761137632210" duration="4688000" />
       <workItem from="1761517147670" duration="1867000" />
       <workItem from="1761654507297" duration="4493000" />
+      <workItem from="1761659024224" duration="67000" />
+      <workItem from="1761741000014" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />
