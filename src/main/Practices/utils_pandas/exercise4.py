@@ -21,17 +21,25 @@ def calculated_pandas_df(dataframe):
 
 
 def run_exercise_4():
-    print(f"Searching for the file at: {DATA_FILE}\n")
+    print("\nUsing the file autos.xlsx (car prices and stock data) ")
+    print("write code to display the minimum, maximum, and average price.")
+    print(f"\nSearching for the file at: {DATA_FILE}")
 
     if not DATA_FILE.exists():
-        raise FileNotFoundError(f"❌ El archivo no existe en: {DATA_FILE}")
+        raise FileNotFoundError(f"\n❌ The file does not exist in: {DATA_FILE}")
 
     dataframe = pd.read_csv(DATA_FILE, delimiter=";")
 
     new_dataframe = calculated_pandas_df(dataframe)
 
-    print(f"cars_database.csv file found, its content is as follows:\n{dataframe}\n")
+    print("\n"+ "=" * 50)
+    print(f"{'🚦  cars_database.csv file found':^50}")
+    print("=" * 50)
+    print(dataframe)
+    print("-" * 50)
 
-    pd.set_option('display.float_format', '{:.0f}'.format)
-
-    print(f"Car price summary with Pandas DataFrame:\n{new_dataframe}\n")
+    print("\n" * 2 + "=" * 50)
+    print(f"{'🚗  Car price summary with Pandas DataFrame':^50}")
+    print("=" * 50)
+    print(new_dataframe)
+    print("-" * 50)

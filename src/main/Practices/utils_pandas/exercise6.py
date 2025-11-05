@@ -4,6 +4,10 @@ import pandas as pd
 import numpy as np
 
 # Helper function to print a visual delimiter
+def number_of_spaces(number): return print('\n' * number)
+
+def title_center_text(text, number): return print(f"{f'{text}':^{number}}")
+
 def space_with_delimiter(number, delimiter): print(delimiter * number)
 
 # Clean and format the movie data
@@ -41,10 +45,11 @@ def list_of_movie_genres(dataframe):
     genre_list = sorted(all_genres)
 
     space_with_delimiter(50, '=')
-    print("Unique Genres in Movies:")
-    for genre in genre_list: print(f"- {genre}")
+    title_center_text("Unique Genres in Movies", 50)
     space_with_delimiter(50, '=')
-    print("\n")
+    for genre in genre_list: print(f"- {genre}")
+    space_with_delimiter(50, '-')
+    number_of_spaces(1)
 
 
 # Count of movies per year
@@ -52,10 +57,11 @@ def movies_per_year(df):
     yearly_count = df.groupby('YEAR FILM').size()
 
     space_with_delimiter(50, '=')
-    print("Number of Movies Per Year:")
-    print(yearly_count)
+    title_center_text("Number of Movies Per Year", 50)
     space_with_delimiter(50, '=')
-    print("\n")
+    print(yearly_count)
+    space_with_delimiter(50, '-')
+    number_of_spaces(1)
 
 
 # Percentage distribution of each genre
@@ -65,10 +71,11 @@ def genre_percentage(df):
     percentage = exploded_genres.value_counts(normalize=True) * 100
 
     space_with_delimiter(50, '=')
-    print("Genre Percentage Distribution:")
-    print(percentage.round(2).astype(str) + " %")
+    title_center_text("Genre Percentage Distribution", 50)
     space_with_delimiter(50, '=')
-    print("\n")
+    print(percentage.round(2).astype(str) + " %")
+    space_with_delimiter(50, '-')
+    number_of_spaces(1)
 
 
 # Statistics using NumPy on number of genres per movie
@@ -82,17 +89,22 @@ def genre_stats_per_movie(df):
     std_dev = np.std(genre_counts)
 
     space_with_delimiter(50, '=')
-    print("Statistics: Number of Genres per Movie")
+    title_center_text("Statistics: Number of Genres per Movie", 50)
+    space_with_delimiter(50, '=')
     print(f"Total (Sum):           {total}")
     print(f"Count (Movies):        {count}")
     print(f"Mean Genres/Movie:     {mean:.2f}")
     print(f"Standard Deviation:    {std_dev:.2f}")
-    space_with_delimiter(50, '=')
-    print("\n")
+    space_with_delimiter(50, '-')
+    number_of_spaces(1)
 
 
 # Main function to execute all steps
 def run_exercise_6():
+    print("\nThe dataset folder contains 3 files: users, votes, and movies.")
+    print("Write code to group and aggregate data to compute sum, count, ")
+    print("mean and standard deviation using NumPy functions (np.sum).\n")
+
     base_path = os.path.dirname(__file__)
     input_file = os.path.abspath(os.path.join(base_path, "..", "..", "..", "..", "data", "movies_database.txt"))
     output_file = os.path.abspath(os.path.join(base_path, "..", "..", "..", "..", "data", "movies_database_modified.txt"))

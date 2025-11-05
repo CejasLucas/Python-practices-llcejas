@@ -17,14 +17,26 @@ financial_data = {
 
 
 def run_exercise_3():
+    print("\nWrite a function that receives a DataFrame with sales")
+    print("and expenses data and a list of months, and returns the")
+    print("total balance (sales − expenses) for the given months.")
+
     # Create DataFrame from the financial data
     dataframe = pd.DataFrame(financial_data)
 
     # Display the original DataFrame
-    print(f"\nOriginal DataFrame:\n{dataframe}\n")
+    print("\n" * 2 + "=" * 45)
+    print(f"{'🏛️  Original DataFrame:':^45}")
+    print("=" * 45)
+    print(dataframe)
+    print("-" * 45)
 
     # Calculate the monthly balance (Sales - Expenses)
     dataframe['Balance'] = dataframe['Sales'] - dataframe['Expenses']
 
     # Display the updated DataFrame with the balance
-    print(f"DataFrame with Monthly Balance:\n{dataframe}\n")
+    print("\n" * 2 + "=" * 45)
+    print(f"{'⚖️  DataFrame with Monthly Balance':^45}")
+    print("=" * 45)
+    print(dataframe)
+    print("-" * 45)
