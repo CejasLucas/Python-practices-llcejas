@@ -146,7 +146,7 @@ Desde la raíz del proyecto donde se encuentran:
 python3 -m src.main.nombre_modulo
 
 # Ejemplo práctico
-python3 -m src.main.utils_pandas
+python3 -m src.main.pandas
 ```
 
 <br>
@@ -162,7 +162,7 @@ La aplicación web se encuentra en el módulo WebApp y está construida con Flas
 
 Para levantar la WebApp, desde la raíz del proyecto, ejecutá:
 ```bash
-   python3 -m src.main.WebApp
+   python3 -m src.main.web_app
 ```
 
 Esto iniciará el servidor Flask, que por defecto corre en:

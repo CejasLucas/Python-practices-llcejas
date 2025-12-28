@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ modulo.name }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/practice.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <h1> GRAPHIC  INTERFACE</h1>
+        <nav>
+            <a href="/project/web_app/static">Home</a>
+            <a href="#">About</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>{{ modulo.name }} practice</h1>
+
+        {% if submenu %}
+            <ul>
+                {% for item in submenu %}
+                    <li>
+                        <a href="{{ url_for('main.run_exercise', file_name=modulo.file_name, exercise_id=item.id) }}">
+                            {{ item.id }} - {{ item.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No hay ejercicios disponibles.</p>
+        {% endif %}
+
+        <a class="return-link" href="{{ url_for('main.main_menu') }}">← Return to the main menu</a>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/CejasLucas" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/cejaslucas/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:cejaslucasleonel@gmail.com" target="_blank" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <p>© 2025 – Python Learning Interface</p>
+    </footer>
+
+</body>
+</html>
