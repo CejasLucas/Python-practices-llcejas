@@ -1,24 +1,26 @@
-from .exercise1 import run_exercise_1
-from .exercise2 import run_exercise_2
-from .exercise3 import run_exercise_3
-from .exercise4 import run_exercise_4
-from .exercise5 import run_exercise_5
-from .exercise6 import run_exercise_6
-from .exercise7 import run_exercise_7
-from .exercise8 import run_exercise_8
-from .exercise9 import run_exercise_9
-from .exercise10 import run_exercise_10
+from project.python_expert.venn_diagrams import (
+    venn_diagrams_01,
+    venn_diagrams_02,
+    venn_diagrams_03,
+    venn_diagrams_04,
+    venn_diagrams_05,
+    venn_diagrams_06,
+    venn_diagrams_07,
+    venn_diagrams_08,
+    venn_diagrams_09,
+    venn_diagrams_10
+)
 
-def get_venn_diagrams_exercises():
-    return {
-        1: {"name": "Basic Set Operations in Python", "func": run_exercise_1},
-        2: {"name": "Language Study Venn Diagram", "func": run_exercise_2},
-        3: {"name": "Algebra II and Sports Participation", "func": run_exercise_3},
-        4: {"name": "M, N and Universe U Analysis", "func": run_exercise_4},
-        5: {"name": "Tech Ownership among Students", "func": run_exercise_5},
-        6: {"name": "Cardinalities from Venn Diagram", "func": run_exercise_6},
-        7: {"name": "Pet Ownership Survey", "func": run_exercise_7},
-        8: {"name": "Transportation in Buenos Aires", "func": run_exercise_8},
-        9: {"name": "Family Educational Levels", "func": run_exercise_9},
-        10: {"name": "Students in Math, Physics & Chemistry", "func": run_exercise_10}
-    }
+def get_statements_with_venn_diagrams_exercises():
+    return [
+        {"statement": "Basic Set Operations in Python", "exercise": venn_diagrams_01},
+        {"statement": "Language Study Venn Diagram", "exercise": venn_diagrams_02},
+        {"statement": "Algebra II and Sports Participation", "exercise": venn_diagrams_03},
+        {"statement": "M, N and Universe U Analysis", "exercise": venn_diagrams_04},
+        {"statement": "Tech Ownership among Students", "exercise": venn_diagrams_05},
+        {"statement": "Cardinalities from Venn Diagram", "exercise": venn_diagrams_06},
+        {"statement": "Pet Ownership Survey", "exercise": venn_diagrams_07},
+        {"statement": "Transportation in Buenos Aires", "exercise": venn_diagrams_08},
+        {"statement": "Family Educational Levels", "exercise": venn_diagrams_09},
+        {"statement": "Students in Math, Physics & Chemistry", "exercise": venn_diagrams_10}
+    ]

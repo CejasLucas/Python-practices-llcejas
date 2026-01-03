@@ -1,8 +1,7 @@
-from project.python_basic.lists.lists_00 import get_lists_exercises
-from project.utils.loader import ExerciseBuilder
-from colorama import Fore, Style
+from project.utils.__runtime__ import Runtime
+from project.python_basic.lists.__menu__ import get_statements_with_lists_exercises
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n=========================== COLLECTIONS PRACTICE LIST ===========================")
-    builder = ExerciseBuilder(practice=get_lists_exercises())
-    builder.run()
+    runtime = Runtime(title="LISTS")
+    runtime.register(practice=get_statements_with_lists_exercises())
+    runtime.run()

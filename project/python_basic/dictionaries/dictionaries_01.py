@@ -1,4 +1,4 @@
-from project.utils.format import TerminalFormat
+from project.utils.__terminal_format__ import TerminalFormat
 
 phone_book = {
     'Cejas Lucas': 1169591337,

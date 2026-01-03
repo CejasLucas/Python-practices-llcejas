@@ -1,11 +1,7 @@
-from src.main.Practices.utils_matplotlib.__menu__ import get_matplotlib_exercises
-from src.main.Practices.__loader__ import ExerciseBuilder
-from colorama import Fore, Style
+from project.utils.__runtime__ import Runtime
+from project.python_expert.matplotlib.__menu__ import get_statements_with_matplotlib_exercises
 
 if __name__ == "__main__":
-    exercises = {k: v["func"] for k, v in get_matplotlib_exercises().items()}
-    submenu = {k: v["name"] for k, v in get_matplotlib_exercises().items()}
-    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n=========================== MATPLOTLIB PRACTICE MENU ===========================")
-
-    builder = ExerciseBuilder(exercises=exercises, menu=submenu)
-    builder.run()
+    runtime = Runtime(title="MATPLOTLIB")
+    runtime.register(practice=get_statements_with_matplotlib_exercises())
+    runtime.run()

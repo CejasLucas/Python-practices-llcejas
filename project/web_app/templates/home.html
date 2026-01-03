@@ -21,10 +21,10 @@
 
     <main class="container">
         <div class="grid">
-            {% for modulo in modulos %}
-                <div class="modulo">
-                    <a href="{{ url_for('main.module_page', file_name=modulo.file_name) }}">
-                        {{ modulo.name }}
+            {% for component in components %}
+                <div class="module">
+                    <a href="{{ url_for('main.module_page', file_name=component.folder_name) }}">
+                        {{ component.module_name }}
                     </a>
                 </div>
             {% endfor %}

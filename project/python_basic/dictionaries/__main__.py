@@ -1,8 +1,7 @@
-from project.python_basic.dictionaries.dictionaries_00 import get_dictionaries_exercises
-from project.utils.loader import ExerciseBuilder
-from colorama import Fore, Style
+from project.utils.__runtime__ import Runtime
+from project.python_basic.dictionaries.__menu__ import get_statements_with_dictionaries_exercises
 
 if __name__ == "__main__":
-    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "\n================================== COLLECTIONS PRACTICE: DICTIONARIES ==================================")
-    builder = ExerciseBuilder(practice=get_dictionaries_exercises())
-    builder.run()
+    runtime = Runtime(title="DICTIONARIES")
+    runtime.register(practice=get_statements_with_dictionaries_exercises())
+    runtime.run()

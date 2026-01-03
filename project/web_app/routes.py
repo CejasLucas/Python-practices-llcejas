@@ -6,7 +6,7 @@ main_bp = Blueprint('main', __name__)
 
 @main_bp.route('/')
 def main_menu():
-    return render_template('home.html', modulos=modules.info_module())
+    return render_template('home.html', components = modules.info_module())
 
 
 @main_bp.route('/module/<file_name>')
