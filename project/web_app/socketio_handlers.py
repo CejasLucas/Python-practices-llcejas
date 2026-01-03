@@ -7,7 +7,7 @@ from flask import request
 from flask_socketio import emit
 # ------- Applications ---------
 from project.web_app import socketio
-from project.web_app.modules import info_module
+from project.web_app.modules import information
 
 
 clients = {}
@@ -68,7 +68,7 @@ def start_exercise(data):
     file_name = data.get("file_name")
     exercise_id = int(data.get("exercise_id"))
 
-    modulo = next((m for m in info_module() if m["file_name"] == file_name), None)
+    modulo = next((m for m in information() if m["file_name"] == file_name), None)
     if not modulo or "submenu_func" not in modulo:
         emit("output", "Ejercicio no encontrado\r\n")
         return

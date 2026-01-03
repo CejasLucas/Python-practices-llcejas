@@ -5,97 +5,130 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/utils/__location__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/scripts/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/scripts/utils/location_folder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/colections.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/colections.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/practices/01_conditionals.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/practices/01_conditionals.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/practices/02_cycles.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/practices/02_cycles.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/practices/03_colections.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/practices/03_colections.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/practices/04_numpy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/practices/04_numpy.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/practices/05_matplotlib.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/practices/05_matplotlib.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/practices/06_networkx.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/practices/06_networkx.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/practices/07_pandas.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/practices/07_pandas.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/practices/08_venn_diagrams.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/practices/08_venn_diagrams.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_data_science.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_data_science.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_matplotlib.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_matplotlib.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_networkX.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_networkX.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_network_analysis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_network_analysis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_network_theory.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_network_theory.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_networkx_prime.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_networkx_prime.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_numpy.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_numpy.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_numpy_slicing.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_numpy_slicing.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_pandas.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_pandas.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_pandas_slicing.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_pandas_slicing.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_regular_expressions.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_regular_expressions.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/theory/utils_venn_diagrams.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/theory/utils_venn_diagrams.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/utils_numpy_tools.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/utils_numpy_tools.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/info/utils_pandas_tools.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/project/documents/utils_pandas_tools.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/conditionals/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/conditionals_00.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/conditionals/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/cycle_for/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/cycle_for_00.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/cycle_for/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/cycle_while/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_00.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/cycle_while/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/dictionaries/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_00.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/dictionaries/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/lists/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/lists_00.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/lists/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/sets/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/sets_00.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/sets/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/tuples/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/tuples/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_basic/tuples/tuples_00.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_basic/tuples/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/matplotlib/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/matplotlib/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/networkx/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/networkx/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/networkx/networkx_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/networkx/networkx_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/networkx/networkx_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/networkx/networkx_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/networkx/networkx_05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/networkx/networkx_06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/style_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/utils/__style_graphic__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/numpy/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/numpy/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/numpy/numpy_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/numpy/numpy_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/numpy/numpy_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/numpy/numpy_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/pandas_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/pandas_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/pandas_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/pandas_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/pandas_05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/pandas_06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/pandas/pandas_07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__menu__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise1.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise10.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise2.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise3.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise4.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_04.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise5.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise6.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise7.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_07.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise8.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/exercise9.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_09.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/palette_colors.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__palette__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/utils/format.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/utils/__terminal_format__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/utils/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/utils/__runtime__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/conditionals_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/conditionals_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/conditionals_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/conditionals_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/conditionals_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/conditionals_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/conditionals_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/conditionals_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/conditionals_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/conditionals_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/conditionals/conditionals_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/conditionals_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/cycle_for_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/cycle_for_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/cycle_for_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/cycle_for_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/cycle_for_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/cycle_for_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_for/cycle_for_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/cycle_for_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/cycle_while_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/cycle_while_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/cycle_while_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/cycle_while_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/cycle_while_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/cycle_while_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_07.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/cycle_while_07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/cycle_while/cycle_while_08.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/cycle_while_08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/dictionaries/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/dictionaries/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/dictionaries/dictionaries_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/dictionaries/dictionaries_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/dictionaries/dictionaries_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/dictionaries/dictionaries_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/dictionaries/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/lists_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/lists_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/lists_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/lists_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/lists_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/lists_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/lists_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/lists_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/lists_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/lists_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/lists/lists_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/lists_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/sets/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/sets/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/sets_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/sets/sets_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/sets_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/sets/sets_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/sets_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/sets/sets_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/sets/sets_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/sets/sets_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/tuples/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/sets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/tuples/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/tuples/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/tuples/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/tuples/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/tuples/tuples_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/tuples/tuples_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/tuples/tuples_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/tuples/tuples_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_basic/tuples/tuples_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/tuples/tuples_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/tuples/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/matplotlib_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/matplotlib_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/matplotlib_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/matplotlib_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/matplotlib_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/matplotlib/matplotlib_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/matplotlib_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/networkx_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/networkx_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/networkx_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/networkx_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/networkx_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/networkx_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/networkx_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/networkx_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/networkx_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/networkx_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/networkx/networkx_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/networkx_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/numpy/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/numpy/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/numpy_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/numpy/numpy_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/numpy_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/numpy/numpy_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/numpy_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/numpy/numpy_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/numpy/numpy_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/numpy/numpy_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/numpy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/pandas_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/pandas_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/pandas_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/pandas_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/pandas_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/pandas_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/pandas_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/pandas_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/pandas_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/pandas_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/pandas_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/pandas_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/pandas/pandas_07.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/pandas_07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/__palette__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/__palette__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_05.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_07.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_07.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_08.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_09.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/utils/__location__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/utils/__runtime__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/__runtime__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/utils/__style_graphic__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/utils/graph_styles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/utils/__terminal_format__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/utils/terminal_format.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/lib/bindings/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/lib/tom-select/tom-select.complete.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/lib/tom-select/tom-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/lib/vis-9.1.2/vis-network.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/lib/vis-9.1.2/vis-network.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/modules.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/socketio_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/socketio_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,60 +239,14 @@
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/project/utils" />
       <recent name="$PROJECT_DIR$/project" />
+      <recent name="$PROJECT_DIR$/project/scripts" />
+      <recent name="$PROJECT_DIR$/project/utils" />
       <recent name="$PROJECT_DIR$/project/basics" />
       <recent name="$PROJECT_DIR$/src/main/WebApp" />
-      <recent name="$PROJECT_DIR$/src/main/Practices" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__main__ (2)">
-    <configuration name="__main__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practices-llcejas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/python_expert/pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/python_expert/pandas/__main__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="__main__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-practices-llcejas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/python_expert/venn_diagrams" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/python_expert/venn_diagrams/__main__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-practices-llcejas" />
       <option name="ENV_FILES" value="" />
@@ -269,12 +256,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/python_expert/numpy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project/scripts/python_expert/networkx" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/python_expert/numpy/__main__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/scripts/python_expert/networkx/__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,8 +272,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.__main__ (2)" />
-        <item itemvalue="Python.__main__ (1)" />
         <item itemvalue="Python.__main__" />
       </list>
     </recent_temporary>
@@ -350,7 +335,8 @@
       <workItem from="1767212852033" duration="4201000" />
       <workItem from="1767360237845" duration="2366000" />
       <workItem from="1767447499162" duration="2375000" />
-      <workItem from="1767459455434" duration="3792000" />
+      <workItem from="1767459455434" duration="8659000" />
+      <workItem from="1767468756082" duration="107000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />
@@ -376,29 +362,34 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_01.py</url>
+          <url>file://$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_01.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/project/python_expert/networkx/networkx_05.py</url>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/venn_diagrams_09.py</url>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/project/python_expert/venn_diagrams/venn_diagrams_09.py</url>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/project/scripts/python_basic/conditionals/__main__.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project/scripts/python_expert/pandas/pandas_04.py</url>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_practices_llcejas$__main____2_.coverage" NAME="__main__ (2) Coverage Results" MODIFIED="1759070935315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Practices/cycle_for" />
-    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1767462848446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_expert/networkx" />
-    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____2_.coverage" NAME="__main__ (2) Coverage Results" MODIFIED="1767461791936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_basic/sets" />
-    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1767463130432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_expert/numpy" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1767463251515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_expert/pandas" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____2_.coverage" NAME="__main__ (2) Coverage Results" MODIFIED="1767463416066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_expert/venn_diagrams" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1767466565112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/scripts/python_expert/networkx" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1759106581627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1759323877574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run.coverage" NAME="run Coverage Results" MODIFIED="1758488183892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebApp" />
-    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____3_.coverage" NAME="__main__ (3) Coverage Results" MODIFIED="1766899307231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/practice/dictionaries" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____3_.coverage" NAME="__main__ (3) Coverage Results" MODIFIED="1767464611717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/scripts/python_basic/conditionals" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1758685486978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$socketio_handlers.coverage" NAME="socketio_handlers Coverage Results" MODIFIED="1758685505185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1759070898788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Practices/conditionals" />

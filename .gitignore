@@ -26,6 +26,6 @@ env/
 *.log
 
 # Ignorar salidas generadas automáticamente
-/outputs/
+/project/outputs/
 /lib/
 /.idea/

@@ -1,0 +1,128 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* BODY */
+body {
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* HEADER */
+.hero {
+  background: #1e293b;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 15vh;
+  padding: 0 2.5%;
+}
+
+/* TEXTO */
+.hero-content {
+  width: 70%;
+}
+
+.hero-content h1 {
+  font-size: 1.5rem;
+}
+
+.hero-content p {
+  font-size: 1rem;
+}
+
+/* NAVBAR */
+nav {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* MENÚ HAMBURGUESA */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.line {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  #nav-list {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #306998;
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #nav-list.active {
+    display: flex;
+  }
+
+  #nav-list li {
+    padding: 10px 0;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Animación a X */
+  .menu-toggle.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .menu-toggle.active .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+  #nav-list {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}
