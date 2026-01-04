@@ -16,13 +16,14 @@ footer {
 }
 
 footer .social-links {
+    padding-top: 0.5rem;
     display: flex;                /* Flexbox para los íconos */
     gap: 1.5rem;                  /* Espaciado entre los íconos */
 }
 
 footer .social-links a {
     color: var(--text-light);    /* Color blanco para los enlaces */
-    font-size: 1.5rem;           /* Tamaño adecuado para los íconos */
+    font-size: 1.25rem;           /* Tamaño adecuado para los íconos */
     text-decoration: none;       /* Sin subrayado */
     transition: color var(--transition); /* Transición suave al pasar el mouse */
 }
@@ -33,5 +34,6 @@ footer .social-links a:hover {
 
 footer p {
     margin-top: 0.5rem;         /* Separación de los íconos */
-    font-size: 0.9rem;          /* Tamaño de fuente pequeño */
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;          /* Tamaño de fuente pequeño */
 }

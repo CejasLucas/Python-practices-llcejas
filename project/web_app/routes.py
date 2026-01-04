@@ -4,11 +4,16 @@ from flask import Blueprint, render_template, abort
 
 main_bp = Blueprint('main', __name__)
 
+#------------------------------------- HOME ----------------------------------------------
 @main_bp.route('/')
 def main_menu():
-    return render_template('00_home.html', components = modules.information())
+    key_value_lists = []
+    for module in modules.information():
+        key_value_lists.append({"id": module["id"], "module_name": module["module_name"]})
+    return render_template('00_home.html', components=key_value_lists)
 
 
+#------------------------------------- MODULE ----------------------------------------------
 @main_bp.route('/module/<file_name>')
 def module_page(file_name):
     modulo = next((m for m in modules.information() if m['file_name'] == file_name), None)
@@ -25,6 +30,7 @@ def module_page(file_name):
     return render_template('python_basic.html', modulo=modulo, submenu=submenu)
 
 
+#------------------------------------- EXERCISE ----------------------------------------------
 @main_bp.route('/module/<file_name>/exercise/<int:exercise_id>')
 def run_exercise(file_name, exercise_id):
     modulo = next((m for m in modules.information() if m['file_name'] == file_name), None)
@@ -37,6 +43,7 @@ def run_exercise(file_name, exercise_id):
         modulo=modulo
     )
 
+#------------------------------------- GRAPHIC ----------------------------------------------
 @main_bp.route('/graphic')
 def graphics():
     return render_template('graphic.html')

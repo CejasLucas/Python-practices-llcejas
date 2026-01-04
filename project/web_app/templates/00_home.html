@@ -17,28 +17,8 @@
 </head>
 
 <body>
-
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Data Analysis and Visualization</h1>
-      <p>Applied fundamentals with Python</p>
-    </div>
-
-    <nav>
-      <div class="menu-toggle" id="menu-toggle">
-        <span class="line"></span>
-        <span class="line"></span>
-        <span class="line"></span>
-      </div>
-
-      <ul id="nav-list">
-        <li><a href="/">Home</a></li>
-        <li><a href="/info">Info</a></li>
-        <li><a href="/modules">Modules</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </nav>
-  </header>
+  <!-- HEADER + components -->
+  {% include 'header.html'  %}
 
   <main>
     <!------------------------------------------ WHY PYTHON ------------------------------------------>
@@ -191,21 +171,8 @@
     </section>
   </main>
 
-  <footer>
-    <div class="social-links">
-        <a href="https://github.com/CejasLucas" target="_blank" aria-label="GitHub">
-            <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/cejaslucas/" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="mailto:cejaslucasleonel@gmail.com" target="_blank" aria-label="Email">
-            <i class="fas fa-envelope"></i>
-        </a>
-    </div>
-    <p>© 2025 – Python Learning Interface</p>
-  </footer>
+  {% include 'footer.html' %}
 
-  <script src="{{ url_for('static', filename='javascript/home.js') }}"></script>
+  <script src="{{ url_for('static', filename='javascript/header.js') }}"></script>
 </body>
 </html>

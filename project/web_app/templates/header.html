@@ -1,0 +1,32 @@
+<header class="hero">
+  <div class="hero-content">
+    <h1>Data Analysis and Visualization</h1>
+    <p>Applied fundamentals with Python</p>
+  </div>
+
+  <nav>
+    <div class="menu-toggle" id="menu-toggle">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+
+    <ul id="nav-list">
+      <li><a href="/">Home</a></li>
+      <li><a href="https://www.google.com">About</a></li>
+
+      <li class="dropdown" id="modules-dropdown">
+        <a href="#" class="dropbtn">Modules</a>
+        <ul class="dropdown-content">
+          {% for component in components %}
+            <li>
+              <a href="{{ url_for('main.module_page', file_name=component['id']) }}">
+                {{ component['module_name'] }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>

@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/project/web_app/static/javascript/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/web_app/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/web_app/templates/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/01_practice.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/01_practice.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/02_task.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/02_task.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/javascript/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/javascript/home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/00_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/00_home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/static/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/static/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/xterm/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/templates/00_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/00_home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/templates/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +31,10 @@
       <list>
         <option value="JavaScript File" />
         <option value="TypeScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -218,7 +227,8 @@
       <workItem from="1767447499162" duration="2375000" />
       <workItem from="1767459455434" duration="8659000" />
       <workItem from="1767468756082" duration="107000" />
-      <workItem from="1767478995965" duration="538000" />
+      <workItem from="1767478995965" duration="1110000" />
+      <workItem from="1767536667704" duration="5485000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />
