@@ -28,7 +28,7 @@
                             <li class="exercise-item">
                                 <a
                                     class="exercise-link"
-                                    href="{{ url_for('main.run_exercise', file_name=modulo.folder_name, exercise_id=item.id) }}">
+                                    href="{{ url_for('main.run_exercise', folder_name=modulo.folder_name, exercise_id=item.id) }}">
                                     {{ item.id }} - {{ item.statement }}
                                 </a>
                             </li>

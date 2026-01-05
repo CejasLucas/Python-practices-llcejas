@@ -1,86 +1,52 @@
 document.addEventListener("DOMContentLoaded", () => {
+    if (!window.exerciseData) {
+        console.error("exerciseData no definido");
+        return;
+    }
+
+    const { folderName, moduleId, exerciseId} = window.exerciseData;
 
     const term = new Terminal({
-        theme: { background: '#0A0A0A', foreground: '#FEFEFE', cursor: '#00D1B2' },
-        fontFamily: 'Fira Mono, monospace',
+        theme: { background: "#000000", foreground: "#ffffff" },
         fontSize: 14
     });
 
+    term.open(document.getElementById("terminal"));
+
     const socket = io();
-    const terminalDiv = document.getElementById('terminal');
-    if (!terminalDiv) return console.error("Error: #terminal div not found");
-    term.open(terminalDiv);
 
+    // ✅ CLAVE: esperar conexión
+    socket.on("connect", () => {
+        socket.emit("start_exercise", {
+            folder_name: folderName,
+            exercise_id: exerciseId
+        });
+    });
 
-    const fileName = window.exerciseData?.fileName || "example.txt";
-    const exerciseId = window.exerciseData?.exerciseId || 0;
-    term.write(`📂  Loading the practice ${fileName} exercises.\r\n`);
-
-
-    let inputBuffer = "";
-    let finished = false;
-    socket.emit("start_exercise", { file_name: fileName, exercise_id: exerciseId });
-    term.prompt = () => { term.write("\r\n"); };
-
+    let buffer = "";
 
     term.onData(e => {
-        if (finished) {
-            if (e === '\r') closePopup();
-            return;
-        }
-        if (e === '\r') {
-            socket.emit("input", inputBuffer);
+        if (e === "\r") {
+            socket.emit("input", buffer);
+            buffer = "";
             term.write("\r\n");
-            inputBuffer = "";
-        } else if (e === '\u007F') {
-            if (inputBuffer.length > 0) {
-                inputBuffer = inputBuffer.slice(0, -1);
-                term.write('\b \b');
-            }
+        } else if (e === "\u007F") {
+            buffer = buffer.slice(0, -1);
+            term.write("\b \b");
         } else {
-            inputBuffer += e;
+            buffer += e;
             term.write(e);
         }
     });
 
-    socket.on("output", data => {
-        term.write(data);
-        term.prompt();
-    });
+    socket.on("output", data => term.write(data));
 
     socket.on("end", () => {
-        finished = true;
-        term.write("\r\n🎉  Exercise finished. Press Enter or Close button.\r\n");
-        const closeBtn = document.getElementById("close-btn");
-        if (closeBtn) closeBtn.style.display = "inline-block";
+        term.write("\r\n✔ Ejercicio terminado\r\n");
+        document.getElementById("close-btn").style.display = "block";
     });
 
-    socket.on("graph", data => {
-        localStorage.setItem("lastGraph", data);
-        const urlDiv = document.getElementById("url");
-
-        if (urlDiv) {
-            urlDiv.innerHTML = "";
-            const link = document.createElement("a");
-
-            link.href = "/graphic";
-            link.target = "_blank";
-            link.textContent = "🔗 See generated graph";
-            urlDiv.appendChild(link);
-            term.write("\r\n[INFO] Click the link below right to open it.\r\n");
-        }
-    });
-
-    function closePopup() {
-        const overlay = document.getElementById("overlay");
-        overlay.style.opacity = 0;
-        setTimeout(() => {
-            overlay.style.display = "none";
-            const fileName = window.exerciseData?.fileName || "";
-            window.location.href = `/module/${fileName}`;
-        }, 300);
-    }
-
-    const closeBtn = document.getElementById("close-btn");
-    if (closeBtn) closeBtn.addEventListener("click", closePopup);
+    document.getElementById("close-btn").onclick = () => {
+        window.location.href = `/module/${moduleId}`;
+    };
 });

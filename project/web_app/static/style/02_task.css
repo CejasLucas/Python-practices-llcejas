@@ -2,98 +2,89 @@
 
 body {
     margin: 0;
-    font-family: sans-serif;
-    background-color: var(--black-color);
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    background-color: #000;
 }
 
+/* Overlay full-screen */
 #overlay {
     position: fixed;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--black-color);
+    inset: 0;
+    background: radial-gradient(circle at top, #111 0%, #000 60%);
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 1;
-    transition: opacity 0.3s ease;
 }
 
-#popup{
-    background-color: var(--black-color);
-    width: 85%;
-    height: 80%;
-    max-width: 1000px;
-    max-height: 900px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
+/* Terminal container */
 #terminal {
-    flex: 1;
-    border-radius: 8px;
-    overflow: auto;
-    border: 2px solid var(--color-primary);
-    box-shadow: 0 6px 16px var(--color-primary);
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1.1em;
-    background: var(--black-color);
+    width: 60%; /* Reducir el tamaño */
+    height: 50%; /* Reducir el tamaño */
+    max-width: 800px; /* Reducir el tamaño máximo */
+    max-height: 600px; /* Reducir el tamaño máximo */
+
+    background: #0b0e14;
+    border-radius: 12px;
+    border: 1px solid rgba(100, 255, 255, 0.25);
+    box-shadow:
+        0 0 0 1px rgba(0, 255, 255, 0.15),
+        0 12px 32px rgba(0, 0, 0, 0.8);
+
+    overflow: hidden; /* IMPORTANTE para xterm */
     position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añadir transición para interactividad */
 }
 
-#terminal::-webkit-scrollbar { width: 10px; height: 10px; }
-
-#terminal::-webkit-scrollbar-track { background: var(--black-color); border-radius: 8px; }
-
-#terminal::-webkit-scrollbar-thumb { background: var(--color-zero); border-radius: 8px; }
-
-#terminal::-webkit-scrollbar-thumb:hover { background: var(--color-zero); }
-
-
-#url {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 6px 10px;
-    background: var(--black-color);
-    text-align: right;
-    border-top: 1px solid var(--color-primary);
-    z-index: 10;
+/* Efecto cuando pasa el ratón por encima de la terminal */
+#terminal:hover {
+    transform: scale(1.05); /* Hacer la terminal un poco más grande cuando se pasa el ratón */
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
 }
 
-#url a {
-    font-size: 14px;
-    color: var(--color-primary);
-    text-decoration: none;
-    font-weight: bold;
+/* Scrollbar (xterm compatible) */
+#terminal .xterm-viewport::-webkit-scrollbar {
+    width: 10px;
 }
 
-#url a:hover {
-    text-decoration: underline;
-    color: var(--color-secondary);
+#terminal .xterm-viewport::-webkit-scrollbar-track {
+    background: transparent;
 }
 
+#terminal .xterm-viewport::-webkit-scrollbar-thumb {
+    background: rgba(120, 255, 255, 0.35);
+    border-radius: 6px;
+}
 
+#terminal .xterm-viewport::-webkit-scrollbar-thumb:hover {
+    background: rgba(120, 255, 255, 0.6);
+}
 
+/* Close button */
 #close-btn {
     position: absolute;
-    margin-bottom: 10px;
-    margin-right: 15px;
-    bottom: 20px;
-    right: 20px;
-    background: var(--color-primary);
+    top: 16px; /* Mover el botón hacia arriba para mayor visibilidad */
+    right: 16px;
+
+    background: linear-gradient(135deg, #00ffd5, #00bcd4);
+    color: #002b2b;
     border: none;
-    color: var(--white-color);
-    padding: 6px 12px;
-    border-radius: 6px;
-    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px 16px;
     font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 255, 255, 0.4);
     display: none;
+    transition: transform 0.2s ease; /* Transición para interacción */
 }
 
+/* Mostrar el botón de cierre al pasar el ratón sobre la terminal */
+#terminal:hover #close-btn {
+    display: block; /* Hacer visible el botón */
+    transform: translateY(-5px); /* Moverlo ligeramente hacia arriba cuando se pase el ratón */
+}
+
+/* Estilo del botón de cierre al pasar el ratón */
 #close-btn:hover {
-    background: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 255, 255, 0.6);
 }

@@ -2,34 +2,32 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Python {{ modulo.module_name }} - Exercise {{ exercise_id }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" type="image/svg+xml">
+    <title>{{ modulo.module_name }} - Exercise {{ exercise_id }}</title>
 
-    <!-- xterm.css y xterm.js -->
     <link rel="stylesheet" href="{{ url_for('static', filename='xterm/xterm.css') }}">
     <script src="{{ url_for('static', filename='xterm/xterm.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.min.js"></script>
 
-    <!-- CSS personalizado -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='style/task.css') }}">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/root.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style/02_task.css') }}">
 </head>
+
 <body>
     <div id="overlay">
-        <div id="popup">
-            <div id="terminal">
-                <div id="url"></div>
-            </div>
-        </div>
-        <button id="close-btn"> Close </button>
+        <div id="terminal"></div>
+        <button id="close-btn" style="display:none">Close</button>
     </div>
 
     <script>
         window.exerciseData = {
-            fileName: "{{ file_name|e }}",
+            folderName: "{{ folder_name }}",
+            moduleId: Number("{{ modulo.id }}"),
             exerciseId: Number("{{ exercise_id }}")
         };
     </script>
+
     <script src="{{ url_for('static', filename='javascript/terminal.js') }}"></script>
 </body>
 </html>

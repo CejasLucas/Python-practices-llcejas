@@ -52,6 +52,6 @@ class Runtime:
             exercise = self.exercises.get(choice)
 
             if exercise:
-                exercise.run()
+                exercise()
             else:
                 print("Invalid entry. Please enter a valid number.\n")

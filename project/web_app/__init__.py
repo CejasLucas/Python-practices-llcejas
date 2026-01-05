@@ -10,4 +10,6 @@ def create_app():
     app.register_blueprint(main_bp)
 
     socketio.init_app(app)
+    import project.web_app.socketio_handlers
+
     return app
