@@ -1,8 +1,9 @@
-from scripts.python_basic.cycle_for import (
-    cycle_for_02
+from project.scripts.python_basic.cycle_for import (
+    cycle_for_01,
+    cycle_for_02,
+    cycle_for_03,
+    cycle_for_04
 )
-from scripts.python_basic.cycle_for import cycle_for_04, cycle_for_01, cycle_for_03
-
 
 def get_statements_with_cycle_for_exercises():
     return [

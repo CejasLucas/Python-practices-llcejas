@@ -5,21 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/project/web_app/static/javascript/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/web_app/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/web_app/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/web_app/static/img/python.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/conditionals/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_for/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/cycle_while/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_basic/dictionaries/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/dictionaries/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_basic/lists/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/lists/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_basic/sets/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/sets/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_basic/tuples/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_basic/tuples/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/matplotlib/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_expert/networkx/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/networkx/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_expert/numpy/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/numpy/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_expert/pandas/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/pandas/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/__menu__.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/scripts/python_expert/venn_diagrams/__menu__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/modules.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/javascript/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/javascript/home.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/static/style/00_home.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/00_home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/01_practice.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/01_practice.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/static/style/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/static/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/xterm/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/root.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/root.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/web_app/templates/00_home.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/00_home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/templates/01_practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/01_practice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/templates/02_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/02_task.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,60 +83,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.__main__ (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.__main__ (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.__main__ (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.__main__ (4).executor&quot;: &quot;Run&quot;,
-    &quot;Python.__main__ (5).executor&quot;: &quot;Run&quot;,
-    &quot;Python.__main__.executor&quot;: &quot;Run&quot;,
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.example1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples (3).executor&quot;: &quot;Run&quot;,
-    &quot;Python.examples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_conditionals.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_lists.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_sets.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_venn_diagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.runner_dictionaries.executor&quot;: &quot;Run&quot;,
-    &quot;Python.runner_venn_diagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.socketio_handlers.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;structure&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/usuario/Documentos/GitHub/python-practices-llcejas/resources PDF/Practices&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/usuario/.local/share/JetBrains/pycharm-2025.1.2/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.__main__ (1).executor": "Run",
+    "Python.__main__ (2).executor": "Run",
+    "Python.__main__ (3).executor": "Run",
+    "Python.__main__ (4).executor": "Run",
+    "Python.__main__ (5).executor": "Run",
+    "Python.__main__.executor": "Run",
+    "Python.app.executor": "Run",
+    "Python.example1.executor": "Run",
+    "Python.examples (1).executor": "Run",
+    "Python.examples (2).executor": "Run",
+    "Python.examples (3).executor": "Run",
+    "Python.examples.executor": "Run",
+    "Python.run (1).executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.run_conditionals.executor": "Run",
+    "Python.run_dictionaries.executor": "Run",
+    "Python.run_for.executor": "Run",
+    "Python.run_lists.executor": "Run",
+    "Python.run_sets.executor": "Run",
+    "Python.run_venn_diagrams.executor": "Run",
+    "Python.run_while.executor": "Run",
+    "Python.runner_dictionaries.executor": "Run",
+    "Python.runner_venn_diagrams.executor": "Run",
+    "Python.socketio_handlers.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "structure",
+    "last_opened_file_path": "/home/usuario/Documentos/GitHub/Python-practices-llcejas/project/web_app/static/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/usuario/.local/share/JetBrains/pycharm-2025.1.2/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/project/web_app/static/img" />
       <recent name="$PROJECT_DIR$/resources PDF/Practices" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/WebApp/__utils__" />
       <recent name="$PROJECT_DIR$/src/main/__utils__" />
-      <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project" />
@@ -229,6 +239,7 @@
       <workItem from="1767468756082" duration="107000" />
       <workItem from="1767478995965" duration="1110000" />
       <workItem from="1767536667704" duration="5485000" />
+      <workItem from="1767585631853" duration="7126000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />

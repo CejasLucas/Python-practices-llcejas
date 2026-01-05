@@ -6,13 +6,13 @@
 }
 
 body {
-  background: #f5f7fa;
-  color: #333;
+  background: var(--light);
+  color: var(--bg-black);
 }
 
 /* ================= HEADER ================= */
 .hero {
-  background: #1e293b;
+  background: var(--bg-blue);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,16 +26,37 @@ body {
 }
 
 .hero-content {
+  display: flex;
+  align-items: center;
   max-width: 70%;
 }
 
+.image-container {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.hero-content img {
+  width: 4.5rem;
+  height: auto;
+}
+
 .hero-content h1 {
-  color: rgb(0, 195, 255);
+  color: var(--light);
   font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 .hero-content p {
-  color: white;
+  color: var(--light);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
 }
 
 /* ================= NAV ================= */
@@ -55,7 +76,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: var(--light);
   font-weight: 600;
   font-size: 1.1rem;
   padding: 6px 4px;
@@ -64,7 +85,7 @@ nav a {
 
 /* Hover nav principal */
 #nav-list > li > a:hover {
-  color: #22d3ee;
+  color: var(--primary);
 }
 
 /* ================= HAMBURGER ================= */
@@ -79,7 +100,7 @@ nav a {
 .line {
   width: 25px;
   height: 3px;
-  background: white;
+  background: var(--bg-ligth);
   border-radius: 5px;
 }
 
@@ -95,7 +116,7 @@ nav a {
   top: calc(10vh);
   right: 0;
 
-  background: #1e293b;
+  background: var(--bg-blue);
   min-width: 150px;
   padding: 6px 0;
   border-radius: 0 0 0 6px;
@@ -111,20 +132,20 @@ nav a {
   display: block;
   padding: 10px 16px;
   font-size: 0.9rem;
-  color: white;
+  color: var(--light);
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 /* Hover cian */
 .dropdown-content a:hover {
-  background: #22d3ee;
-  color: #0f172a;
+  background: var(--primary);
+  color: var(--bg-blue);
 }
 
 /* Click */
 .dropdown-content a:active {
-  background: #06b6d4;
-  color: #0f172a;
+  background: var(--primary);
+  color: var(--bg-blue);
 }
 
 .dropdown.active .dropdown-content {
@@ -142,7 +163,7 @@ nav a {
   #nav-list {
     display: none;
     flex-direction: column;
-    background: #1e293b;
+    background: var(--secondary);
     position: absolute;
     top: 100%;
     left: 0;

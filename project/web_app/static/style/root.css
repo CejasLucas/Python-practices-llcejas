@@ -1,9 +1,12 @@
 :root {
-  --bg-dark: #1f2933;
-  --bg-card: #ffffff;
+  --light: #e5e7eb;
   --primary: #38bdf8;
-  --text-dark: #1e293b;
-  --text-light: #e5e7eb;
+  --secondary: #1e293b;
+  --highlight: #ffec40;
+  --bg-ligth: #ffffff;
+  --bg-black: #1c1c1c;
+  --bg-dark: #1f2933;
+  --bg-blue: #0f172a;
   --radius: 16px;
   --shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
   --shadow-hover: 0 16px 36px rgba(0, 0, 0, 0.22);

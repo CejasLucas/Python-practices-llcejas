@@ -1,10 +1,11 @@
-from scripts.python_expert.networkx import (
+from project.scripts.python_expert.networkx import (
+    networkx_01,
+    networkx_02,
     networkx_03,
+    networkx_04,
     networkx_05,
     networkx_06
 )
-from scripts.python_expert.networkx import networkx_04, networkx_02, networkx_01
-
 
 def get_statements_with_networkx_exercises():
     return [

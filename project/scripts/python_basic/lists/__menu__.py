@@ -1,5 +1,11 @@
-from scripts.python_basic.lists import lists_06, lists_02, lists_01, lists_04, lists_03, lists_05
-
+from project.scripts.python_basic.lists import (
+    lists_01,
+    lists_02,
+    lists_03,
+    lists_04,
+    lists_05,
+    lists_06
+)
 
 def get_statements_with_lists_exercises():
     return [

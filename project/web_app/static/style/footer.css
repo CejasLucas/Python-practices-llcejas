@@ -1,8 +1,8 @@
 @import url("root.css");
 
 footer {
-    background-color: var(--bg-dark);  /* Fondo oscuro */
-    color: var(--text-light);           /* Texto blanco */
+    background-color: var(--bg-blue);  /* Fondo oscuro */
+    color: var(--light);           /* Texto blanco */
     height: 10vh;                       /* Altura del footer */
     display: flex;                      /* Usamos Flexbox */
     flex-direction: column;             /* Los elementos se alinean de arriba hacia abajo */
@@ -22,7 +22,7 @@ footer .social-links {
 }
 
 footer .social-links a {
-    color: var(--text-light);    /* Color blanco para los enlaces */
+    color: var(--light);    /* Color blanco para los enlaces */
     font-size: 1.25rem;           /* Tamaño adecuado para los íconos */
     text-decoration: none;       /* Sin subrayado */
     transition: color var(--transition); /* Transición suave al pasar el mouse */

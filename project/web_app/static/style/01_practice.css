@@ -4,12 +4,12 @@
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 1rem;
+    padding-top: 15vh;
 }
 
 /* ====== Title ====== */
 h1 {
-    color: var(--gray-colorbis);
+    color: var(--secondary);
     margin-bottom: 1.5rem;
     text-align: center;
     font-size: 2rem;
@@ -18,13 +18,14 @@ h1 {
 
 /* ====== Secondary Title ====== */
 h2 {
-    color: var(--gray-colorbis);
+    color: var(--secondary);
     text-align: center;
     margin-bottom: 1rem;
     font-size: 1.75rem;
     font-weight: 400;
 }
 
+/* ====== List ====== */
 ul {
     list-style: none;
     padding: 0;
@@ -33,22 +34,24 @@ ul {
 }
 
 li {
-    background-color: var(--gray-color);
+    background-color: var(--bg-ligth);
     border-radius: 8px;
-    margin-bottom: 2rem;
-    padding: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
     text-align: center;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 6px var(--color-zero);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px var(--shadow);
 }
 
 li:hover {
-    background-color: var(--gray-color);
-    transform: translateY(-3px);
+    background-color: var(--highlight); /* Color amarillo para resaltar */
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
 }
 
+/* ====== Link Styling ====== */
 a {
-    color: var(--color-primary);
+    color: var(--primary);
     font-weight: 600;
     text-decoration: none;
     font-size: 1.1rem;
@@ -60,20 +63,21 @@ li a {
 }
 
 a:hover {
-    color: var(--color-secondary);
+    color: var(--secondary);
     text-decoration: underline;
 }
 
+/* ====== Return Link ====== */
 .return-link {
     display: block;
     text-align: center;
     margin-top: 2rem;
-    color: var(--white-color);
+    color: var(--light);
     font-weight: 500;
     text-decoration: none;
 }
 
 .return-link:hover {
-    color: var(--color-zero);
+    color: var(--light);
     text-decoration: underline;
 }

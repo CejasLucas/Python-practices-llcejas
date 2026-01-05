@@ -1,7 +1,12 @@
 <header class="hero">
   <div class="hero-content">
-    <h1>Data Analysis and Visualization</h1>
-    <p>Applied fundamentals with Python</p>
+    <div class="image-container">
+      <img src="{{ url_for('static', filename='img/python.png') }}" alt="Python">
+    </div>
+    <div>
+      <h1>Data Analysis and Visualization</h1>
+      <p>Applied fundamentals with Python</p>
+    </div>
   </div>
 
   <nav>
@@ -18,9 +23,9 @@
       <li class="dropdown" id="modules-dropdown">
         <a href="#" class="dropbtn">Modules</a>
         <ul class="dropdown-content">
-          {% for component in components %}
+          {% for component in g.components %}
             <li>
-              <a href="{{ url_for('main.module_page', file_name=component['id']) }}">
+              <a href="{{ url_for('main.module_page', id_module=component['id']) }}">
                 {{ component['module_name'] }}
               </a>
             </li>

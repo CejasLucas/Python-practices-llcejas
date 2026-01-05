@@ -1,4 +1,4 @@
-from scripts.python_basic.tuples import (
+from project.scripts.python_basic.tuples import (
     tuples_01,
     tuples_02,
     tuples_03

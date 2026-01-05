@@ -1,5 +1,9 @@
-from scripts.python_expert.numpy import numpy_03, numpy_01, numpy_02, numpy_04
-
+from scripts.python_expert.numpy import (
+    numpy_01,
+    numpy_02,
+    numpy_03,
+    numpy_04
+)
 
 def get_statements_with_numpy_exercises():
     return [

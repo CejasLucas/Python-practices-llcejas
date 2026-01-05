@@ -1,8 +1,9 @@
-from scripts.python_basic.sets import (
-    sets_01
+from project.scripts.python_basic.sets import (
+    sets_01,
+    sets_02,
+    sets_03,
+    sets_04
 )
-from scripts.python_basic.sets import sets_02, sets_04, sets_03
-
 
 def get_statements_with_sets_exercises():
     return [

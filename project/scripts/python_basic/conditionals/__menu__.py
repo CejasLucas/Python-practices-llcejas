@@ -1,9 +1,11 @@
-from scripts.python_basic.conditionals import (
+from project.scripts.python_basic.conditionals import (
+    conditionals_01,
+    conditionals_02,
+    conditionals_03,
     conditionals_04,
+    conditionals_05,
     conditionals_06
 )
-from scripts.python_basic.conditionals import conditionals_02, conditionals_01, conditionals_03, conditionals_05
-
 
 def get_statements_with_conditional_exercises():
     return  [

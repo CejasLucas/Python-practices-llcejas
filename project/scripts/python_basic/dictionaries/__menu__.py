@@ -1,8 +1,8 @@
-from scripts.python_basic.dictionaries import (
-    dictionaries_02
+from project.scripts.python_basic.dictionaries import (
+    dictionaries_01,
+    dictionaries_02,
+    dictionaries_03
 )
-from scripts.python_basic.dictionaries import dictionaries_03, dictionaries_01
-
 
 def get_statements_with_dictionaries_exercises():
     return [

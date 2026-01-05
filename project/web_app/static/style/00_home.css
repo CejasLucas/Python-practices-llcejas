@@ -7,7 +7,7 @@ section {
 
 .dark {
   background: linear-gradient(180deg, #1f2933, #111827);
-  color: var(--text-light);
+  color: var(--light);
 }
 
 /* ========================= TITLES ========================= */
@@ -40,8 +40,8 @@ section {
 
 /* ========================= TOOL CARD ========================= */
 .tool {
-  background: var(--bg-card);
-  color: var(--text-dark);
+  background: var(--bg-ligth);
+  color: var(--secondary);
   border-radius: var(--radius);
   padding: 24px 18px;
   display: flex;

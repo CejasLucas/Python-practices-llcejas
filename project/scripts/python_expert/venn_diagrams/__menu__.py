@@ -1,4 +1,5 @@
-from scripts.python_expert.venn_diagrams import (
+from project.scripts.python_expert.venn_diagrams import (
+    venn_diagrams_01,
     venn_diagrams_02,
     venn_diagrams_03,
     venn_diagrams_04,
@@ -9,7 +10,6 @@ from scripts.python_expert.venn_diagrams import (
     venn_diagrams_09,
     venn_diagrams_10
 )
-from scripts.python_expert.venn_diagrams import venn_diagrams_01
 
 
 def get_statements_with_venn_diagrams_exercises():

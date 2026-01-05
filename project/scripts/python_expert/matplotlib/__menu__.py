@@ -1,11 +1,11 @@
-from scripts.python_expert.matplotlib import (
+from project.scripts.python_expert.matplotlib import (
     matplotlib_01,
+    matplotlib_02,
     matplotlib_03,
     matplotlib_04,
-    matplotlib_05
+    matplotlib_05,
+    matplotlib_06
 )
-from scripts.python_expert.matplotlib import matplotlib_02, matplotlib_06
-
 
 def get_statements_with_matplotlib_exercises():
     return [

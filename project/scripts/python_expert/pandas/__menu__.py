@@ -1,8 +1,12 @@
-from scripts.python_expert.pandas import (
-    pandas_06
+from project.scripts.python_expert.pandas import (
+    pandas_01,
+    pandas_02,
+    pandas_03,
+    pandas_04,
+    pandas_05,
+    pandas_06,
+    pandas_07
 )
-from scripts.python_expert.pandas import pandas_05, pandas_02, pandas_03, pandas_01, pandas_07, pandas_04
-
 
 def get_statements_with_pandas_exercises():
     return [
