@@ -1,6 +1,6 @@
 import networkx as nx
-from scripts.utils.terminal_format import TerminalFormat
-from scripts.utils.graph_styles import THEME_PALETTE, GraphStyle, build_graph
+from project.scripts.utils.terminal_format import TerminalFormat
+from project.scripts.utils.graph_styles import THEME_PALETTE, GraphStyle, build_graph
 
 elements = ["Radius", "Diameter", "Eccentricity", "Center", "Periphery", "Density"]
 

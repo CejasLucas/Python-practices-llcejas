@@ -1,4 +1,4 @@
-from scripts.utils.terminal_format import TerminalFormat
+from project.scripts.utils.terminal_format import TerminalFormat
 
 students = {
     "Benitez Nicolas": [10, 9, 7, 8],

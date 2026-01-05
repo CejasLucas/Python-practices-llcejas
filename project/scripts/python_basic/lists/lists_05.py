@@ -1,4 +1,4 @@
-from scripts.python_basic.lists.lists_01 import list_created
+from project.scripts.python_basic.lists.lists_01 import list_created
 
 def run():
     print("\nCreate two lists of words, then remove from the")

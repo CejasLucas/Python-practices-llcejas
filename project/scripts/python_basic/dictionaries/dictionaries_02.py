@@ -1,4 +1,4 @@
-from scripts.utils.terminal_format import TerminalFormat
+from project.scripts.utils.terminal_format import TerminalFormat
 
 fruits_per_kilogram = {
     "apple": 1000,

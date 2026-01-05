@@ -1,6 +1,6 @@
-from scripts.utils.terminal_format import TerminalFormat
-import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.pyplot as plt
+from project.scripts.utils.terminal_format import TerminalFormat
 
 product_per_day = {
     'Monday': (20, 25),

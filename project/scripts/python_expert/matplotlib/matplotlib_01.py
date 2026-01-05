@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from scripts.utils.terminal_format import TerminalFormat
+from project.scripts.utils.terminal_format import TerminalFormat
 
 PIB_2020 = {
     'Brazil': (2364409.9, '#FFB6C1'),    # Rosado claro

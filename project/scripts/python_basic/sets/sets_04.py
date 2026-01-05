@@ -1,8 +1,7 @@
-from scripts.python_basic.sets.sets_01 import create_set
-from scripts.python_basic.sets.sets_01 import create_list
-from scripts.python_basic.sets.sets_01 import run as run_exercise_1
-from scripts.python_basic.sets.sets_02 import run as run_exercise_2
-from scripts.python_basic.sets.sets_03 import run as run_exercise_3
+from project.scripts.python_basic.sets.sets_01 import (create_set, create_list)
+from project.scripts.python_basic.sets.sets_01 import run as run_exercise_1
+from project.scripts.python_basic.sets.sets_02 import run as run_exercise_2
+from project.scripts.python_basic.sets.sets_03 import run as run_exercise_3
 
 def run():
     print("\nCreate a program that simplifies working with sets.")

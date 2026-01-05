@@ -1,7 +1,8 @@
 import re
 import numpy as np
 import pandas as pd
-from scripts.utils.location_folder import file_path_using_pathlib
+
+from project.scripts.utils.location_folder import file_path_using_pathlib
 
 INPUT_FILE = file_path_using_pathlib("data", "movies_database.txt")
 OUTPUT_FILE = file_path_using_pathlib("data","movies_database_titles.csv")

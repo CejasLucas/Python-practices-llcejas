@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 from matplotlib_venn import venn3
-from scripts.python_expert.venn_diagrams.__palette__ import venn3_colors
+from project.scripts.python_expert.venn_diagrams.__palette__ import venn3_colors
 
 data = {
     '100': (5, 'Motorbike only'),

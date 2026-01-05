@@ -1,7 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-from scripts.utils.location_folder import file_path_using_pathlib
+from project.scripts.utils.location_folder import file_path_using_pathlib
 
 DATA_FILE = file_path_using_pathlib("data", "commerce_database.csv")
 

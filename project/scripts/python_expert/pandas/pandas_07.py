@@ -1,7 +1,8 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from scripts.utils.location_folder import file_path_using_pathlib
+
+from project.scripts.utils.location_folder import file_path_using_pathlib
 
 DATA_FILE = file_path_using_pathlib("data","salaries_database.csv")
 custom_colors = ['#6C63FF', '#F5B7B1', '#FF6584']

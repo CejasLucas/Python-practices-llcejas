@@ -1,8 +1,8 @@
 @import url("root.css");
 
 footer {
-    background-color: var(--bg-blue);  /* Fondo oscuro */
-    color: var(--light);           /* Texto blanco */
+    background-color: var(--bg-blue);   /* Fondo oscuro */
+    color: var(--light);                /* Texto blanco */
     height: 10vh;                       /* Altura del footer */
     display: flex;                      /* Usamos Flexbox */
     flex-direction: column;             /* Los elementos se alinean de arriba hacia abajo */
@@ -36,4 +36,42 @@ footer p {
     margin-top: 0.5rem;         /* Separación de los íconos */
     margin-bottom: 0.5rem;
     font-size: 0.75rem;          /* Tamaño de fuente pequeño */
+}
+/* ================= FOOTER ================= */
+footer {
+    background-color: var(--bg-blue);
+    color: var(--light);
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+footer .social-links {
+    padding-top: 0.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+footer .social-links a {
+    color: var(--light);
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color var(--transition);
+}
+
+footer .social-links a:hover {
+    color: var(--primary);
+}
+
+footer p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
 }

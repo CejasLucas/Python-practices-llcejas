@@ -1,4 +1,4 @@
-from scripts.python_expert.venn_diagrams.__palette__ import venn3_colors
+from project.scripts.python_expert.venn_diagrams.__palette__ import venn3_colors
 from matplotlib import pyplot as plt
 from matplotlib_venn import venn3
 from matplotlib import patheffects

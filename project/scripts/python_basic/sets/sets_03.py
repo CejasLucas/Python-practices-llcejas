@@ -1,4 +1,4 @@
-from scripts.python_basic.sets.sets_01 import create_set
+from project.scripts.python_basic.sets.sets_01 import create_set
 
 def run():
     print("\nCreate a program that receives two sets and returns the elements")

@@ -1,5 +1,5 @@
-from scripts.utils.terminal_format import TerminalFormat
 import matplotlib.pyplot as plt
+from project.scripts.utils.terminal_format import TerminalFormat
 
 # Data
 group_one = [89, 90, 70, 89, 100, 80, 90, 100, 80, 34]

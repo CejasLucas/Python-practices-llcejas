@@ -1,6 +1,6 @@
-from scripts.utils.terminal_format import TerminalFormat
-import matplotlib.pyplot as plt
 import numpy as np
+import matplotlib.pyplot as plt
+from project.scripts.utils.terminal_format import TerminalFormat
 
 country_with_population_area_color = {
     "United States": (331002651, 998193),

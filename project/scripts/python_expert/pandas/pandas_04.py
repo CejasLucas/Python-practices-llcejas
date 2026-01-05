@@ -1,5 +1,6 @@
 import pandas as pd
-from scripts.utils.location_folder import file_path_using_pathlib
+from project.scripts.utils.location_folder import file_path_using_pathlib
+
 DATA_FILE = file_path_using_pathlib("data", "cars_database.csv")
 
 def calculated_pandas_df(dataframe):
