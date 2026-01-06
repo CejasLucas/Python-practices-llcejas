@@ -1,11 +1,13 @@
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+import io, sys, base64, queue, threading, builtins, importlib
+
 from flask import request
 from flask_socketio import emit
 
 from project.web_app import socketio
 from project.web_app.modules import information
-
-import matplotlib.pyplot as plt
-import io, sys, base64, queue, threading, builtins, importlib
 
 clients = {}
 

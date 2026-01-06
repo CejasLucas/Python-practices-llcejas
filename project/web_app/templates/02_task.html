@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <title>{{ modulo.module_name }} - Exercise {{ exercise_id }}</title>
 
+    <!-- Xterm core -->
     <link rel="stylesheet" href="{{ url_for('static', filename='xterm/xterm.css') }}">
     <script src="{{ url_for('static', filename='xterm/xterm.js') }}"></script>
+
+    <!-- Xterm Fit Addon (REQUIRED for scroll & sizing) -->
+    <script src="https://cdn.jsdelivr.net/npm/xterm-addon-fit/lib/xterm-addon-fit.js"></script>
+
+    <!-- Socket.IO -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.min.js"></script>
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
+    <!-- Custom styles -->
     <link rel="stylesheet" href="{{ url_for('static', filename='style/root.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='style/02_task.css') }}">
 </head>
 
 <body>
+    <!-- Overlay -->
     <div id="overlay">
-        <div id="terminal"></div>
-        <button id="close-btn" style="display:none">Close</button>
+        <div id="terminal">
+            <!-- Space for generated graph link -->
+            <div id="url"></div>
+        </div>
     </div>
 
+    <!-- Exercise data for JS -->
     <script>
         window.exerciseData = {
             folderName: "{{ folder_name }}",
@@ -28,6 +40,7 @@
         };
     </script>
 
+    <!-- Terminal logic -->
     <script src="{{ url_for('static', filename='javascript/terminal.js') }}"></script>
 </body>
 </html>

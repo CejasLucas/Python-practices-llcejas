@@ -16,32 +16,31 @@ body {
     align-items: center;
 }
 
-/* Terminal container */
 #terminal {
-    width: 60%; /* Reducir el tamaño */
-    height: 50%; /* Reducir el tamaño */
-    max-width: 800px; /* Reducir el tamaño máximo */
-    max-height: 600px; /* Reducir el tamaño máximo */
-
+    width: min(95vw, 1100px);
+    height: min(80vh, 700px);
     background: #0b0e14;
     border-radius: 12px;
-    border: 1px solid rgba(100, 255, 255, 0.25);
+    border: 1px solid rgba(0, 255, 255, 0.25);
     box-shadow:
         0 0 0 1px rgba(0, 255, 255, 0.15),
         0 12px 32px rgba(0, 0, 0, 0.8);
-
-    overflow: hidden; /* IMPORTANTE para xterm */
     position: relative;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Añadir transición para interactividad */
+    overflow: hidden;
 }
 
-/* Efecto cuando pasa el ratón por encima de la terminal */
-#terminal:hover {
-    transform: scale(1.05); /* Hacer la terminal un poco más grande cuando se pasa el ratón */
-    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+/* xterm must scroll internally */
+#terminal .xterm-viewport {
+    overflow-y: auto !important;
 }
 
-/* Scrollbar (xterm compatible) */
+/* xterm must fill container */
+#terminal .xterm,
+#terminal .xterm-screen {
+    height: 100% !important;
+}
+
+/* Custom scrollbar (xterm compatible) */
 #terminal .xterm-viewport::-webkit-scrollbar {
     width: 10px;
 }
@@ -59,32 +58,27 @@ body {
     background: rgba(120, 255, 255, 0.6);
 }
 
-/* Close button */
-#close-btn {
+/* URL link styling */
+#url {
     position: absolute;
-    top: 16px; /* Mover el botón hacia arriba para mayor visibilidad */
-    right: 16px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 6px 10px;
+    background: #0b0e14;
+    text-align: right;
+    border-top: 1px solid rgba(0, 255, 255, 0.25);
+    z-index: 10;
+}
 
-    background: linear-gradient(135deg, #00ffd5, #00bcd4);
-    color: #002b2b;
-    border: none;
-    border-radius: 8px;
-    padding: 8px 16px;
+#url a {
+    font-size: 14px;
+    color: #00bcd4;
+    text-decoration: none;
     font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0, 255, 255, 0.4);
-    display: none;
-    transition: transform 0.2s ease; /* Transición para interacción */
 }
 
-/* Mostrar el botón de cierre al pasar el ratón sobre la terminal */
-#terminal:hover #close-btn {
-    display: block; /* Hacer visible el botón */
-    transform: translateY(-5px); /* Moverlo ligeramente hacia arriba cuando se pase el ratón */
-}
-
-/* Estilo del botón de cierre al pasar el ratón */
-#close-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0, 255, 255, 0.6);
+#url a:hover {
+    text-decoration: underline;
+    color: #00ffd5;
 }
