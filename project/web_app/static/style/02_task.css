@@ -16,7 +16,14 @@ body {
     align-items: center;
 }
 
+#terminal * {
+    font-family: 'JetBrains Mono', monospace !important;
+    letter-spacing: normal !important;
+    line-height: normal;
+}
+
 #terminal {
+    padding-left: 15px;
     width: min(95vw, 1100px);
     height: min(80vh, 700px);
     background: #0b0e14;

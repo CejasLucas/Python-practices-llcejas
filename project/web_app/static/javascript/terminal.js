@@ -9,9 +9,8 @@ document.addEventListener("DOMContentLoaded", () => {
             cursor: '#00D1B2'
         },
         fontFamily: 'JetBrains Mono, monospace',
-        fontSize: 13,
-        lineHeight: 1.25,
-        letterSpacing: 0.1,
+        fontSize: 14,
+        lineHeight: 1.2,
         cursorBlink: true,
         scrollback: 2000 // IMPORTANT for scrolling
     });
@@ -104,8 +103,8 @@ document.addEventListener("DOMContentLoaded", () => {
     socket.on("end", () => {
         exerciseFinished = true;
 
-        term.write("\r\n✔ Exercise finished\r\n");
-        term.write("↩ Press ENTER to continue...\r\n");
+        term.write("\r\n🎉 Exercise finished\r\n");
+        term.write("↩️ Press ENTER to continue...\r\n");
         term.scrollToBottom();
     });
 
