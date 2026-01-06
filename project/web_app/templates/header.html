@@ -1,0 +1,37 @@
+<header class="hero" id="header">
+  <div class="hero-content">
+    <div class="image-container">
+      <img src="{{ url_for('static', filename='img/python.png') }}" alt="Python">
+    </div>
+    <div>
+      <h1>Data Analysis and Visualization</h1>
+      <p>Applied fundamentals with Python</p>
+    </div>
+  </div>
+
+  <nav>
+    <div class="menu-toggle" id="menu-toggle">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+
+    <ul id="nav-list">
+      <li><a href="/">Home</a></li>
+      <li><a href="https://www.google.com">About</a></li>
+
+      <li class="dropdown" id="modules-dropdown">
+        <a href="#" class="dropbtn">Modules</a>
+        <ul class="dropdown-content">
+          {% for component in g.components %}
+            <li>
+              <a href="{{ url_for('main.module_page', id_module=component['id']) }}">
+                {{ component['module_name'] }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>

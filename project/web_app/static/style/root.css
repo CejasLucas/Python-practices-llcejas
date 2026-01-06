@@ -1,0 +1,26 @@
+:root {
+  --light: #e5e7eb;
+  --primary: #38bdf8;
+  --secondary: #1e293b;
+  --highlight: #ffec40;
+  --bg-ligth: #ffffff;
+  --bg-black: #1c1c1c;
+  --bg-dark: #1f2933;
+  --bg-blue: #0f172a;
+  --radius: 16px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.14);
+  --shadow-hover: 0 16px 36px rgba(0, 0, 0, 0.22);
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: var(--bg-black);
+}

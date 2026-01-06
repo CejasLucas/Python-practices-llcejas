@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Home | Flask</title>
+
+  <!-- Favicon Flask -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" type="image/svg+xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style/header.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style/footer.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style/00_home.css') }}">
+</head>
+
+<body>
+  <!-- HEADER + components -->
+  {% include 'header.html'  %}
+
+  <main>
+    <!------------------------------------------ WHY PYTHON ------------------------------------------>
+    <section>
+      <h2 class="title">Why Python?</h2>
+
+      <div class="tools">
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/icon_python.svg') }}" alt="Python">
+          </div>
+          <span>Simple and readable language</span>
+          <p>Python stands out for its clean and human-friendly syntax, making it easy to learn and maintain.</p>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/icon_database.webp') }}"  alt="Data Analysis">
+          </div>
+          <span>Ideal for data analysis</span>
+          <p>Powerful libraries like NumPy, Pandas, Matplotlib, and Seaborn enable efficient data analysis and visualization.</p>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/icon_bolt.svg') }}"  alt="Fast">
+          </div>
+          <span>Rapid prototyping</span>
+          <p>Develop functional solutions quickly, perfect for experimenting with algorithms, models, and charts.</p>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/icon_globe.svg') }}"  alt="Ecosystem">
+          </div>
+          <span>Large ecosystem</span>
+          <p>Python has a massive community and ecosystem covering data science, web development, automation, and AI.</p>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------ HOW TO RUN EACH MODULE ------------------------------------------>
+    <section class="dark">
+      <h2 class="title">How to run each module</h2>
+
+      <div class="tools">
+        <div class="tool">
+          <div class="logo">1</div>
+          <span>Select a module</span>
+          <p>Choose an available module (NumPy, Pandas, Visualization, Graphs, etc.) from the Modules section.</p>
+        </div>
+
+        <div class="tool">
+          <div class="logo">2</div>
+          <span>Select an exercise</span>
+          <p>Each module includes practical exercises designed to apply concepts step by step.</p>
+        </div>
+
+        <div class="tool">
+          <div class="logo">3</div>
+          <span>Interactive terminal</span>
+          <p>Run code directly in an integrated interactive terminal based on <strong>xterm</strong>.</p>
+        </div>
+
+        <div class="tool">
+          <div class="logo">4</div>
+          <span>Optional visualization</span>
+          <p>Some exercises automatically generate charts for visual analysis of results.</p>
+        </div>
+      </div>
+    </section>
+
+    <!------------------------------------------ LIBRARIES ------------------------------------------>
+    <section class="dark">
+      <h2 class="title">Libraries used</h2>
+
+      <div class="tools">
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_flask.svg') }}" alt="Flask">
+          </div>
+          <span>Flask</span>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_seaborn.svg') }}" alt="Seaborn">
+          </div>
+          <span>Seaborn</span>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_numpy.svg') }}" alt="Numpy">
+          </div>
+          <span>NumPy</span>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_pandas.svg') }}" alt="Pandas">
+          </div>
+          <span>Pandas</span>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_networkx.svg') }}" alt="NetworkX">
+          </div>
+          <span>NetworkX</span>
+        </div>
+
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_socket-io.svg') }}" alt="Socket.IO">
+          </div>
+          <span>Socket.IO</span>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_matplotlib.svg') }}" alt="Matplotlib">
+          </div>
+          <span>Matplotlib</span>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_jinja.svg') }}" alt="Jinja">
+          </div>
+          <span>Jinja</span>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_polars.svg') }}" alt="Polars">
+          </div>
+          <span>Polars</span>
+        </div>
+
+        <div class="tool">
+          <div class="logo">
+            <img src="{{ url_for('static', filename='img/bookstore_pytest.svg') }}" alt="PyTest">
+          </div>
+          <span>PyTest</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  {% include 'footer.html' %}
+
+  <script src="{{ url_for('static', filename='javascript/header.js') }}"></script>
+</body>
+</html>

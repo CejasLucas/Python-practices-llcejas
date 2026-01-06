@@ -1,0 +1,75 @@
+/* ====== Page Wrapper ====== */
+.practice-page {
+    display: flex;
+    justify-content: center;
+}
+
+/* ====== Main Container ====== */
+.practice-container {
+    max-width: 900px;
+    width: 100%;
+    padding-top: 80px; /* compensa header fijo */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 60px;
+}
+
+/* ====== Titles ====== */
+.practice-container h2 {
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: clamp(1.55rem, 2.6vw, 2rem);
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    position: relative;
+}
+
+/* ====== Exercise List ====== */
+.exercise-items {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+}
+
+/* ====== Exercise Item ====== */
+.exercise-item {
+    background-color: var(--bg-dark);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease,
+                transform 0.2s ease,
+                box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
+.exercise-item:hover {
+    background-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+/* ====== Exercise Link ====== */
+.exercise-link {
+    display: block;
+    color: var(--light);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.exercise-link:hover {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+/* ====== No Exercises ====== */
+.no-exercises {
+    text-align: center;
+    color: var(--light);
+    margin-top: 2rem;
+}

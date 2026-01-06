@@ -1,0 +1,91 @@
+@import url("root.css");
+
+body {
+    margin: 0;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    background-color: #000;
+}
+
+/* Overlay full-screen */
+#overlay {
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(circle at top, #111 0%, #000 60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#terminal * {
+    font-family: 'JetBrains Mono', monospace !important;
+    letter-spacing: normal !important;
+    line-height: normal;
+}
+
+#terminal {
+    padding-left: 15px;
+    width: min(95vw, 1100px);
+    height: min(80vh, 700px);
+    background: #0b0e14;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 255, 255, 0.25);
+    box-shadow:
+        0 0 0 1px rgba(0, 255, 255, 0.15),
+        0 12px 32px rgba(0, 0, 0, 0.8);
+    position: relative;
+    overflow: hidden;
+}
+
+/* xterm must scroll internally */
+#terminal .xterm-viewport {
+    overflow-y: auto !important;
+}
+
+/* xterm must fill container */
+#terminal .xterm,
+#terminal .xterm-screen {
+    height: 100% !important;
+}
+
+/* Custom scrollbar (xterm compatible) */
+#terminal .xterm-viewport::-webkit-scrollbar {
+    width: 10px;
+}
+
+#terminal .xterm-viewport::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#terminal .xterm-viewport::-webkit-scrollbar-thumb {
+    background: rgba(120, 255, 255, 0.35);
+    border-radius: 6px;
+}
+
+#terminal .xterm-viewport::-webkit-scrollbar-thumb:hover {
+    background: rgba(120, 255, 255, 0.6);
+}
+
+/* URL link styling */
+#url {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 6px 10px;
+    background: #0b0e14;
+    text-align: right;
+    border-top: 1px solid rgba(0, 255, 255, 0.25);
+    z-index: 10;
+}
+
+#url a {
+    font-size: 14px;
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#url a:hover {
+    text-decoration: underline;
+    color: #00ffd5;
+}

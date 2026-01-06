@@ -1,0 +1,172 @@
+/* ================= HEADER ================= */
+#header {
+  background: var(--bg-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2.5%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  z-index: 2000;
+}
+
+#header .hero-content {
+  display: flex;
+  align-items: center;
+  max-width: 70%;
+}
+
+#header .image-container {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+#header .hero-content img {
+  width: 4.5rem;
+  height: auto;
+}
+
+#header .hero-content h1 {
+  color: var(--light);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#header .hero-content p {
+  color: var(--light);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* ================= NAV ================= */
+#header nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#header #nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+#header nav a {
+  text-decoration: none;
+  color: var(--light);
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 6px 4px;
+  transition: color 0.2s ease;
+}
+
+/* Hover nav principal */
+#header #nav-list > li > a:hover {
+  color: var(--primary);
+}
+
+/* ================= HAMBURGER ================= */
+#header .menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+#header .line {
+  width: 25px;
+  height: 3px;
+  background: var(--bg-ligth);
+  border-radius: 5px;
+}
+
+/* ================= DROPDOWN ================= */
+#header .dropdown {
+  position: relative;
+}
+
+#header .dropdown-content {
+  display: none;
+  position: fixed;
+  top: calc(10vh);
+  right: 0;
+
+  background: var(--bg-blue);
+  min-width: 150px;
+  padding: 6px 0;
+  border-radius: 0 0 0 6px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+  z-index: 1000;
+}
+
+#header .dropdown-content li {
+  width: 100%;
+}
+
+#header .dropdown-content a {
+  display: block;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  color: var(--light);
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* Hover cian */
+#header .dropdown-content a:hover {
+  background: var(--primary);
+  color: var(--bg-blue);
+}
+
+/* Click */
+#header .dropdown-content a:active {
+  background: var(--primary);
+  color: var(--bg-blue);
+}
+
+#header .dropdown.active .dropdown-content {
+  display: block;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+  #header .menu-toggle {
+    display: flex;
+  }
+
+  #header #nav-list {
+    display: none;
+    flex-direction: column;
+    background: var(--secondary);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    z-index: 99;
+  }
+
+  #header #nav-list.active {
+    display: flex;
+  }
+
+  #header #nav-list li {
+    padding: 10px 0;
+  }
+
+  #header .dropdown-content {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}

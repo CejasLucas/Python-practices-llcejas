@@ -1,0 +1,77 @@
+@import url("root.css");
+
+footer {
+    background-color: var(--bg-blue);   /* Fondo oscuro */
+    color: var(--light);                /* Texto blanco */
+    height: 10vh;                       /* Altura del footer */
+    display: flex;                      /* Usamos Flexbox */
+    flex-direction: column;             /* Los elementos se alinean de arriba hacia abajo */
+    justify-content: center;            /* Centrado vertical */
+    align-items: center;                /* Centrado horizontal */
+    padding: 1rem;                      /* Espaciado interno */
+    position: fixed;                    /* Fijamos el footer al fondo */
+    bottom: 0;                          /* Asegura que esté al fondo */
+    width: 100%;                        /* Asegura que ocupe todo el ancho */
+    z-index: 100;                       /* Asegura que el footer esté encima de otros elementos */
+}
+
+footer .social-links {
+    padding-top: 0.5rem;
+    display: flex;                /* Flexbox para los íconos */
+    gap: 1.5rem;                  /* Espaciado entre los íconos */
+}
+
+footer .social-links a {
+    color: var(--light);    /* Color blanco para los enlaces */
+    font-size: 1.25rem;           /* Tamaño adecuado para los íconos */
+    text-decoration: none;       /* Sin subrayado */
+    transition: color var(--transition); /* Transición suave al pasar el mouse */
+}
+
+footer .social-links a:hover {
+    color: var(--primary);             /* Cambio de color al pasar el mouse */
+}
+
+footer p {
+    margin-top: 0.5rem;         /* Separación de los íconos */
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;          /* Tamaño de fuente pequeño */
+}
+/* ================= FOOTER ================= */
+footer {
+    background-color: var(--bg-blue);
+    color: var(--light);
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+footer .social-links {
+    padding-top: 0.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+footer .social-links a {
+    color: var(--light);
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color var(--transition);
+}
+
+footer .social-links a:hover {
+    color: var(--primary);
+}
+
+footer p {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.75rem;
+}
