@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/javascript/terminal.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/javascript/terminal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/static/style/02_task.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/static/style/02_task.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/templates/02_task.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/02_task.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/web_app/templates/03_graphic.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/03_graphic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +218,7 @@
       <workItem from="1767536667704" duration="5485000" />
       <workItem from="1767585631853" duration="13075000" />
       <workItem from="1767630935230" duration="6302000" />
-      <workItem from="1767696158393" duration="3892000" />
+      <workItem from="1767696158393" duration="5874000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />

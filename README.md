@@ -42,31 +42,32 @@ modular que facilita la escalabilidad, la reutilización de código y el uso de 
 
 ## Breve resumen de la aplicación
 
-Cada subdirectorio de src/main/ representa un módulo temático y contiene lo siguiente.
+Cada subdirectorio de ***project/script/*** representa un módulo temático y contiene lo siguiente.
 
-Dentro del package **Practices** vamos a tener cada módulo que contendrá:
+Dentro del package **scripts** vamos a tener cada módulo que contendrá:
   - `exerciseN.py:` Ejercicios específicos de ese módulo.
   - `__main__.py:` Punto de entrada principal del módulo.
   - `__menu__.py:` Menú con un breve enunciado sobre qué hace cada ejercicio.
   - `__init__.py:` Necesario para que el directorio sea tratado como un paquete.
 
 
-Dentro de **WebApp** se encuentra una aplicación web desarrollada con **Flask y SocketIO**, 
+Dentro de **web_app** se encuentra una aplicación web desarrollada con **Flask y SocketIO**, 
 que permite ejecutar y visualizar ejercicios desde el navegador con una terminal 
 interactiva integrada (basada en **xterm.js**). Está diseñada para facilitar pruebas, 
 depuración y ejecución dinámica de código Python.
 
 ``` bash
-.LAB-Python-Practices
-├── .venv/                     
+.Python-practices-llcejas
+├── .venv/
+├── lib/                     
 ├── data/                      
-├── outputs/                   
-├── resources PDF/             
-│   ├── Practices/             
-│   └── Theory/                 
-├── src/                       
-│   ├── main/
-│   │   ├── Practices/         
+├── outputs/                    
+├── project/                       
+│   ├── data/
+│   ├── documents/
+│   ├── outputs/
+│   ├── scripts/
+│   │   ├── python_basic/
 │   │   │   ├── conditionals/
 │   │   │   ├── cycle_for/
 │   │   │   ├── cycle_while/
@@ -74,28 +75,36 @@ depuración y ejecución dinámica de código Python.
 │   │   │   ├── lists/
 │   │   │   ├── sets/
 │   │   │   ├── tuples/
-│   │   │   ├── utils_matplotlib/
-│   │   │   ├── utils_networkx/
-│   │   │   ├── utils_numpy/
-│   │   │   ├── utils_pandas/
-│   │   │   ├── utils_venn_diagrams/
-│   │   │   ├── __loader__.py  
 │   │   │   └── __init__.py
-│   │   └── WebApp/            
-│   │       ├── static/  
-│   │       │    ├── javascript/
-│   │       │    ├── style/
-│   │       │    └── xterm/   
-│   │       ├── templates/    
-│   │       ├── app.py        
-│   │       ├── module.py     
-│   │       ├── routes.py     
-│   │       ├── socketio_handlers.py 
-│   │       └── __init__.py
+│   │   ├── python_expert/
+│   │   │   ├── matplotlib/
+│   │   │   ├── networkx/
+│   │   │   ├── numpy/
+│   │   │   ├── pandas/
+│   │   │   ├── venn_diagrams/
+│   │   │   └── __init__.py
+│   │   ├── utils/
+│   │   ├── __runtime__.py
+│   │   └── __init__.py
+│   │
+│   ├── web_app/            
+│   │   ├── static/  
+│   │   │    ├── img/
+│   │   │    ├── javascript/
+│   │   │    ├── style/
+│   │   │    └── xterm/   
+│   │   ├── templates/    
+│   │   ├── modules.py
+│   │   ├── routes.py             
+│   │   ├── socketio_handlers.py     
+│   │   ├── __main__.py     
+│   │   └── __init__.py 
+│   │        
 │   └── test/                      
 │       ├── test.py
 │       └── __init__.py
-├── .gitignore                 
+├── .gitignore
+├── requirements.txt                 
 └── README.md                  
 ```
 
@@ -140,13 +149,13 @@ Incluso si el archivo está vacío, su presencia mejora la claridad y el manteni
 ### `python3 -m`: Lanzamiento de módulos desde la terminal
 
 Desde la raíz del proyecto donde se encuentran: 
-**( README.md | .gitignore | .venv | src )**, podés ejecutar cualquier módulo usando:
+**( README.md | .gitignore | .venv | project )**, podés ejecutar cualquier módulo usando:
 ```bash
 # Ejemplo teórico
-python3 -m src.main.nombre_modulo
+python3 -m project.scripts.python_expert.nombre_modulo
 
 # Ejemplo práctico
-python3 -m src.main.pandas
+python3 -m project.scripts.python_expert.pandas
 ```
 
 <br>
@@ -162,7 +171,7 @@ La aplicación web se encuentra en el módulo WebApp y está construida con Flas
 
 Para levantar la WebApp, desde la raíz del proyecto, ejecutá:
 ```bash
-   python3 -m src.main.web_app
+   python3 -m project.web_app
 ```
 
 Esto iniciará el servidor Flask, que por defecto corre en:
