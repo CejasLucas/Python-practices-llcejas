@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="Deje modificado el README.md">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-practices-llcejas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-practices-llcejas.iml" afterDir="false" />
+    <list default="true" id="ea3953c8-4e8d-47f7-88a0-4c3fb9ec797e" name="Changes" comment="Merge branch 'development'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/web_app/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/web_app/templates/header.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +206,8 @@
       <workItem from="1765657006395" duration="679000" />
       <workItem from="1766018648786" duration="87000" />
       <workItem from="1766767534909" duration="1090000" />
+      <workItem from="1767712186185" duration="727000" />
+      <workItem from="1767890236224" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="Cambie los colores del proyecto a naranaja">
       <option name="closed" value="true" />
@@ -243,14 +244,19 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1759106581627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$__main____2_.coverage" NAME="__main__ (2) Coverage Results" MODIFIED="1759070935315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Practices/cycle_for" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1767463251515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_expert/pandas" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____2_.coverage" NAME="__main__ (2) Coverage Results" MODIFIED="1767463416066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_expert/venn_diagrams" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1767708820520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/web_app" />
+    <SUITE FILE_PATH="coverage/python_practices_llcejas$app.coverage" NAME="app Coverage Results" MODIFIED="1759106581627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1759323877574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run.coverage" NAME="run Coverage Results" MODIFIED="1758488183892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WebApp" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____3_.coverage" NAME="__main__ (3) Coverage Results" MODIFIED="1767464611717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/scripts/python_basic/conditionals" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1758685486978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$socketio_handlers.coverage" NAME="socketio_handlers Coverage Results" MODIFIED="1758685505185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
     <SUITE FILE_PATH="coverage/python_practices_llcejas$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1759070898788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/Practices/conditionals" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____5_.coverage" NAME="__main__ (5) Coverage Results" MODIFIED="1766900584568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_basic/sets" />
     <SUITE FILE_PATH="coverage/LAB_Python_Practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1764947958625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
-    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1766768176355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/WebApp" />
+    <SUITE FILE_PATH="coverage/Python_practices_llcejas$__main____4_.coverage" NAME="__main__ (4) Coverage Results" MODIFIED="1766900183955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project/python_basic/lists" />
   </component>
 </project>
